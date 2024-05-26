@@ -1,6 +1,4 @@
 before_install:
-  - wget https://github.com/sormuras/bach/raw/releases/11/install-jdk.sh
-  - source install-jdk.sh --feature 21
+  - sdk install java 21.0.3-tem
+  - sdk use java 21.0.3-tem
 
-jdk:
-  - openjdk21
