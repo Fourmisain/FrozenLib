@@ -443,8 +443,6 @@ publishing {
                 } catch (ignored: FileNotFoundException) {
                     // No existing version was published, so we can publish
                 }
-            } else {
-                publish = false
             }
         } catch (e: Exception) {
             publish = false
